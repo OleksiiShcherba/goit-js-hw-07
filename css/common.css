@@ -98,3 +98,56 @@ body {
   width: 148px;
   height: 40px;
 }
+
+#controls {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+
+  border-radius: 8px;
+  padding: 32px;
+  max-width: 486px;
+  min-height: 104px;
+
+  background-color: #f6f6fe;
+
+  margin-bottom: 16px;
+}
+
+#controls input{
+  border: 1px solid #808080;
+  border-radius: 8px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#controls button {
+  width: 120px;
+  height: 40px;
+}
+
+#controls button:last-of-type {
+  background: #ff4e4e;
+}
+
+#boxes {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  border-radius: 8px;
+  padding: 32px;
+  width: fit-content;
+  min-width: 486px;
+  min-height: 160px;
+
+  background-color: #f6f6fe;
+}
